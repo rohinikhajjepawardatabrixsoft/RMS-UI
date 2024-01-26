@@ -14,4 +14,6 @@ const NoDataAvailable = (): ReactElement => {
   );
 };
 
+
+
 export default NoDataAvailable;
