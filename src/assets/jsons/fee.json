@@ -1,0 +1,161 @@
+{
+  "breadcrumb": {
+    "title": "Dashboard / Fee"
+  },
+  "modal": {
+    "delete": {
+      "body": "Are you sure want to permanently delete fee '{{name}}'",
+      "studentBody": "Are you sure want to permanently delete"
+    }
+  },
+  "summary": {
+    "header": {
+      "total": "Total Fee Due",
+      "collected": "Fee Collected",
+      "waved": "Fee Waived",
+      "overdue": "Over Due Students",
+      "dueToday": "Due Today Students",
+      "dueDate": "Due Date",
+      "course": "Course",
+      "campus": "Campus",
+      "paymentType": "Payment Type",
+      "noOfinstallment": "Installments"
+    }
+  },
+  "buttons": {
+    "reminder": "Set Reminder",
+    "addFee": "+ Add Fee",
+    "next": "Next",
+    "prev": "Previous",
+    "close": "Close",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "submit": "Submit"
+  },
+  "common": {
+    "breadcrumbs": "Fees / Add Fee",
+    "next": "Next",
+    "prev": "Previous",
+    "submit": "Submit",
+    "back": "< Back to Fee List"
+  },
+  "basicFee": {
+    "title": " Fee Basic Details",
+    "desc": "This contains all the basic information of the Fee",
+    "label": {
+      "name": "Fee Name*",
+      "particulars": "Particulars*",
+      "dueDate": "Due Date*",
+      "startDate": "Start Date*",
+      "endDate":"End Date",
+      "amount": "Enter Amount*",
+      "total": "Total Students",
+      "school": "Campus",
+      "payType": "Payment Type*",
+      "paidBy": "Is Amount Paid by Campus?*",
+      "currency": "Select Currency*",
+      "reminder": "Auto Reminder",
+      "desc": "Fee Description (Optional)",
+      "institute": "Select Campus*",
+      "instituteOpt": "Select Campus (Optional)",
+      "noOfinstallment": " No. of Installments*"
+    }
+  },
+  "assignFee": {
+    "title": " Assign Fee",
+    "desc": "Assign the fee to the selected batches or students",
+    "label": {
+      "course": "Select Course*",
+      "batches": "Select Batches (Optional)",
+      "institute": "Select Campus",
+      "student": "Select",
+      "discount":"Select Discount Type"
+    },
+    "table": {
+      "header": {
+        "index": "Sl.No",
+        "name": "Student Name",
+        "batch": "Batch",
+        "select": "Select",
+        "grade": "Grade",
+        "parentEmail": "Parent Email",
+        "parentPhone": "Parent Number",
+        "campus": "Campus"
+      }
+    }
+  },
+  "confirmationDetails": {
+    "title": "Fee Name - Confirmation",
+    "desc": "Go through all the details selected before you create the Fee",
+    "label": {
+      "course": "Course",
+      "batches": "Batches",
+      "particulars": "Particulars",
+      "dueDate": "Due Date",
+      "amount": "Amount",
+      "selected": "Selected Students",
+      "batchStudents": "Students in Batches",
+      "school": "Campus",
+      "payType": "Payment Type",
+      "paidBy": "Amount Paid By",
+      "noOfinstallment": "Installments",
+      "currency": "Currency"
+    }
+  },
+  "studentFee": {
+    "thead": {
+      "index": "S.No",
+      "name": "Student Name",
+      "course": "Course",
+      "batches": "Batches",
+      "campus": "Campus",
+      "phone": "Phone",
+      "dueDate": "Due Date",
+      "amount": "Amount",
+      "received": "Received",
+      "balance": "Balance",
+      "pay": "Pay",
+      "history": "Payment History",
+      "other": "Other Fee",
+      "actions": "Actions",
+      "status": "Status",
+      "action": "Action"
+    },
+    "payment": {
+      "discountType": "Discount Type",
+      "value": "Value",
+      "paying": "Paying",
+      "paymentMode": "Payment Mode",
+      "paymentReciept": "Payment Receipt (Optional)",
+      "approvedBy": "Discount Approved By",
+      "referenceId": "Payment Reference ID (Optional)",
+      "installment": "Installment"
+    }
+  },
+  "studentInfo": {
+    "class": "Class",
+    "emailId": "Email ID",
+    "contact": "Contact Number",
+    "batches": "Batches",
+    "father": "Parent"
+  },
+  "feeHistory": {
+    "paid": "Paid",
+    "balance": "Balance",
+    "history": "Payment History"
+  },
+  "toasts": {
+    "feeDelete": "{{name}} Deleted Successfully",
+    "feeDeleteFailed": "Deleting {{name}} Failed",
+    "feeAddSuccess": "{{name}} Added Successfully",
+    "feeEditSuccess": "{{name}} Updated Successfully",
+    "feeAddFailed": "Adding {{name}} Failed",
+    "feeEditFailed": "Updating {{name}} Failed",
+    "editstudentInFeeFailed": "Updating Student in Fee failed",
+    "addstudentInFeeFailed": "Adding Student in Fee failed"
+  },
+  "feePayment": {
+    "paymentSuccess": "Payment Successfull",
+    "paymentFailed": "Payment Failed"
+  }
+}

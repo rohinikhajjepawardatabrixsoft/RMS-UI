@@ -1,0 +1,170 @@
+@use 'sass:math';
+
+$font-family: Poppins !important;
+$logo-height: 6em;
+$logo-padding: 1.5em;
+$logo-filter-hover: drop-shadow(0 0 2em #646cffaa);
+$logo-react-hover: drop-shadow(0 0 2em #61dafbaa);
+$logo-spin-duration: 20s;
+$color-read-the-docs: #888;
+$color-scrollbar-hide: #d4d4d8;
+$color-scrollbar-background: #f8f8f8;
+$color-scrollbar-border: #e4e4e7;
+
+body {
+  font-family: $font-family;
+  max-height: 100% !important;
+  overflow: hidden;
+  width: 100% !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.logo {
+  height: $logo-height;
+  padding: $logo-padding;
+  will-change: filter;
+
+  &:hover {
+    filter: $logo-filter-hover;
+  }
+
+  &.react:hover {
+    filter: $logo-react-hover;
+  }
+
+  @keyframes logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    &:nth-of-type(2) {
+      .logo {
+        animation: logo-spin infinite $logo-spin-duration linear;
+      }
+    }
+  }
+}
+
+.read-the-docs {
+  color: $color-read-the-docs;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator,
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: url(./assets/svgs/calendar-icon.svg);
+  display: inline-flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.scrollbar-hide {
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.react-time-picker {
+  height: 3.15rem;
+
+  .react-time-picker__clock-button {
+    pointer-events: none;
+    cursor: default;
+  }
+
+  .react-time-picker__wrapper {
+    &:focus {
+      outline: 1px solid $color-scrollbar-hide;
+      outline-offset: 0.2rem;
+    }
+
+    border: 1px solid $color-scrollbar-border;
+    border-radius: 0.3rem;
+    background: $color-scrollbar-background;
+    align-items: center;
+
+    .react-time-picker__clear-button {
+      padding: 0.5rem;
+    }
+
+    .react-time-picker__button {
+      padding: 0.3rem;
+    }
+
+    .react-time-picker__inputGroup {
+      font-size: 0.9rem;
+      font-weight: 500;
+      padding: 0.8rem 0.3rem;
+      display: flex;
+      align-items: center;
+
+      .react-time-picker__inputGroup__input,
+      .react-time-picker__inputGroup__leadingZero,
+      .react-time-picker__inputGroup__hour,
+      .react-time-picker__inputGroup__minute,
+      .react-time-picker__inputGroup__amPm {
+        outline: none !important;
+        min-width: 1rem;
+
+        &.react-time-picker__inputGroup__hour {
+          width: 1rem !important;
+        }
+
+        &.react-time-picker__inputGroup__divider {
+          padding: 0rem 0.2rem 0rem 0.2rem;
+        }
+      }
+    }
+  }
+}
+
+.react-datepicker-wrapper {
+  .react-datepicker__input-container {
+    input[type="text"] {
+      background: white;
+    }
+
+    .react-datepicker-ignore-onclickoutside {
+      background: white;
+    }
+  }
+
+  .react-datepicker {
+    .react-datepicker__input-time-container {
+      .react-datepicker-time__input-container {
+        .react-datepicker-time__input {
+          input[type="time"] {
+            background: white;
+          }
+        }
+      }
+    }
+  }
+}
+
+:root {
+  font-size: 68.5%;
+
+  $std-screen-resolutions: 480, 576, 640, 720, 768, 800, 1024, 1280, 1360, 1366, 1440, 1520, 1536, 1600, 1680, 1800, 1900, 1920, 2048, 2160, 2304, 2496, 2256, 2304, 2560, 2736, 2880, 3000, 3072, 3200, 3240, 3440, 3840, 4096, 4500, 5120;
+  $design-screen-resolution: 1440;
+  $font-size-for-designed-screen-resolution: 68.5;
+  $percentage-per-pixel: math.div($font-size-for-designed-screen-resolution, $design-screen-resolution);
+
+  @each $screen-size in $std-screen-resolutions {
+    @media (min-width: #{$screen-size}px) {
+      $scale-percentage: $screen-size * $percentage-per-pixel * 1%;
+      font-size: $scale-percentage !important;
+    }
+    
+  }
+}

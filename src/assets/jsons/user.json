@@ -1,0 +1,33 @@
+{
+  "addUser": {
+    "userName": "User Name*",
+    "userType": "User Type*",
+    "email": "Email*",
+    "gender": "Gender*",
+    "phNumber": "Phone Number*",
+    "city": "City*",
+    "dateOfBirth": "Date Of Birth (Optional)"
+  },
+  "dateOfBirth": "Date Of Birth",
+  "creteUserText": "Create User",
+  "updateUserText": "Edit User",
+  "buttons": {
+    "createUser": "Create",
+    "updateUser": "Update",
+    "cancel": "Cancel"
+  },
+  "card": {
+    "totalNo": "No. of Users"
+  },
+  "table": {
+    "header": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone Number",
+      "type": "User Type",
+      "city": "City",
+      "status": "Status",
+      "action": "Actions"
+    }
+  }
+}

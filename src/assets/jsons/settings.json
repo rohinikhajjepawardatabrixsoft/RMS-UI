@@ -1,0 +1,194 @@
+{
+  "payments": {
+    "paymentMethods": "Payment Methods",
+    "paymentOptions": "Payment Options",
+    "installmentConfigs": "Installment Configs",
+    "currencies": "Currencies",
+    "reminders": "Reminders",
+    "discounts": "Discounts",
+    "addPaymentMethod": "Add Payment Method",
+    "updatePaymentMethod": "Update Payment Method",
+    "addPaymentOption": "Add Payment Option",
+    "updatePaymentOption": "Update Payment Option",
+    "addInstallment": "Add Installment",
+    "updateInstallment": "Update Installment",
+    "addCurrency": "Add Currency",
+    "updateCurrency": "Update Currency",
+    "addReminder": "Add Reminder",
+    "updateReminder": "Update Reminder",
+    "addDiscount": "Add Discount",
+    "updateDiscount": "Update Discount"
+  },
+  "courses": {
+    "particular": "Particular",
+    "addParticular": "Add Particular",
+    "updateParticular": "Update Particular"
+  },
+  "students": {
+    "grades": "Grades",
+    "studentLevels": "Student Levels",
+    "learningAttributes": "Learning Attributes",
+    "addGrade": "Add Grade",
+    "updateGrade": "Update Grade",
+    "addStudentLevel": "Add Student Level",
+    "updateStudentLevel": "Update Student Level",
+    "addLearningAttribute": "Add Learning sAttribute",
+    "updateLearningAttribute": "Update Learning Attribute"
+  },
+  "particulars": {
+    "header": {
+      "sno": "S.No",
+      "particular": "Particular",
+      "desc": "Description",
+      "status": "Status",
+      "amount":"Amount",
+      "action": "Actions"
+    }
+  },
+  "currency": {
+    "header": {
+      "sno": "S.No",
+      "code": "Code",
+      "currency": "Currency",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "discounts": {
+    "header": {
+      "sno": "S.No",
+      "discount": "Discount",
+      "type": "Type",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "installmentConfig": {
+    "header": {
+      "sno": "S.No",
+      "noOfInstallment": "No. of Installments",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "payMethod": {
+    "header": {
+      "sno": "S.No",
+      "payMethod": "Payment Method",
+      "desc": "Description",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "payOptions": {
+    "header": {
+      "sno": "S.No",
+      "payOption": "Payment Option",
+      "desc": "Description",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "reminders": {
+    "header": {
+      "sno": "S.No",
+      "reminder": "Reminder",
+      "desc": "Description",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "grades": {
+    "header": {
+      "sno": "S.No",
+      "name": "Name",
+      "desc": "Description",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+
+  "learningAttr": {
+    "header": {
+      "sno": "S.No",
+      "name": "Name",
+      "desc": "Description",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "studLevel": {
+    "header": {
+      "sno": "S.No",
+      "name": "Student Level",
+      "desc": "Description",
+      "status": "Status",
+      "action": "Actions"
+    }
+  },
+  "module": {
+    "header": {
+      "sno": "S.No",
+      "moduleName": "Module Name",
+      "courseName": "Course Name",
+      "chapters": "Chapters",
+      "action": "Actions"
+    }
+  },
+  "course": {
+    "header": {
+      "sno": "S.No",
+      "moduleName": "Modules",
+      "courseName": "Course Name",
+      "shortDescription": "Short Description",
+      "description": "Description",
+      "duration": "Duration",
+      "isActive": "Active",
+      "chapters": "Chapters",
+      "action": "Actions"
+    }
+  },
+  "chapter": {
+    "header": {
+      "sno": "S.No",
+      "chapterName": "Chapter Name",
+      "moduleName": "Module Name",
+      "material": "Study Material",
+      "video": "Video",
+      "action": "Actions"
+    }
+  },
+  "descriptionContentLimit": "Content limited to 250 characters.",
+  "syllabus": {
+    "header": {
+      "sno": "S.No",
+      "syllabusName": "Syllabus",
+      "courseName": "Course",
+      "sessions": "Chapters",
+      "action": "Actions"
+    },
+    "dlt": {
+      "toast": "Syllabus deleted successfully",
+      "confirm": "Are you sure you want to delete syllabus '{{name}}'?",
+      "sub": "Once deleted, the data is permanently lost"
+    },
+    "add": {
+      "toastSuccess": "Syllabus added successfully",
+      "toastError": "Failed to add syllabus",
+      "header": "Add Syllabus"
+    },
+    "edit": {
+      "toastSuccess": "Syllabus updated successfully",
+      "toastError": "Failed to update syllabus",
+      "header": "Edit Syllabus"
+    },
+    "view": {
+      "header": "View Syllabus"
+    },
+    "noData": {
+      "main": "Data Not Available",
+      "sub1": "Select a Course with Modules",
+      "sub2": "You Need to add Courses / Modules / Chapters"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "table": {
+    "header": {
+      "date": "Date",
+      "student": "Student",
+      "reviewer": "Given By",
+      "batch": "Batch",
+      "status": "Status",
+      "actions": "Actions"
+    }
+  }
+}

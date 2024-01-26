@@ -1,0 +1,42 @@
+{
+  "attendanceText": "Attendance",
+  "tableHeader": {
+    "slNumber": "S.No",
+    "batch": "Batch",
+    "status": "Attendance Status",
+    "numnerOfStudents": "No.of Students",
+    "absentCount": "Absent",
+    "timeSlot": "Timeslot",
+    "reminder": "Reminder",
+    "attendance": "Attendance"
+  },
+  "markAttendance": {
+    "cardsHeader": {
+      "course": "Course",
+      "numnerOfStudents": "No.Of Students",
+      "admin": "Admin",
+      "timeslot": "Timeslot",
+      "date": "Date"
+    },
+    "tableHeader": {
+      "slNumber": "S.No",
+      "studentName": "Student Name",
+      "status": "Status",
+      "comments": "Comments",
+      "previousClasses": "Previous 5 classes"
+    }
+  },
+  "showOnlyAbsentText": "Show only Absent",
+  "studentAttendanceDetailsHeader": {
+    "date": "Date",
+    "batch": "Batch",
+    "status": "Attendance Status",
+    "comments": "Comments"
+  },
+  "buttons": {
+    "absentText": "ABSENT",
+    "presentText": "PRESENT",
+    "mark": "Mark",
+    "manage": "Manage"
+  }
+}

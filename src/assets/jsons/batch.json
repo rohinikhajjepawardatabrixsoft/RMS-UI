@@ -1,0 +1,130 @@
+{
+  "createBatch": {
+    "createBatchText": "Create Batch",
+    "batchDelegate": "Campus Coordinator (Optional)",
+    "courseBlockText": "Select Course and Assign Instructor to Modules",
+    "formHeaders": {
+      "batchName": "Enter Batch Name",
+      "campus": "Select Campus (Optional)",
+      "classMode": "Select Mode of class",
+      "admin": "Select Admin",
+      "day": "Select day",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "name": "Name (Optional)",
+      "email": "Email (Optional)",
+      "phoneNumber": "Phone Number (Optional)",
+      "course": "Select Course",
+      "module": "Module",
+      "primaryInstructor": "Select Primary Instructor",
+      "backupInstructor": "Select Backup Instructor"
+    },
+    "cancel": "Cancel"
+  },
+  "views": {
+    "table": "Table",
+    "calendar": "Calendar"
+  },
+  "form": {
+    "validation": {
+      "required": "Required!"
+    }
+  },
+  "tabs": {
+    "batches": "Batches",
+    "slots": "Slots"
+  },
+  "tableHeader": {
+    "sno": "S.No",
+    "batch": "Batch",
+    "courseName": "Course Name",
+    "classMode": "Class Mode",
+    "admin": "Admin",
+    "timeslot": "Timeslot",
+    "campus": "Campus",
+    "delegate": "Coordinator",
+    "status": "Status",
+    "reminder":"Reminder",
+    "students": "Students",
+    "action": "Actions"
+  },
+  "batchDetailsHeader": {
+    "sno": "S.No",
+    "name": "Batch Name",
+    "courseName": "Course Name",
+    "admin": "Admin",
+    "timeslot": "Timeslot",
+    "delegate": "Delegate"
+  },
+  "slot": {
+    "table": {
+      "header": {
+        "index": "S.No",
+        "time": "Slot Timing",
+        "avlFrom": "Available From",
+        "level": "Level",
+        "course": "Course",
+        "instructor": "Instructors",
+        "filled": "Students Filled",
+        "actions": "Actions"
+      }
+    }
+  },
+  "batachDetails": {
+    "table": {
+      "header": {
+        "admNo": "Ad.No",
+        "student": "Student",
+        "grade": "Grade",
+        "section": "Section",
+        "gender": "Gender",
+        "phone": "Phone",
+        "parent": "Parent Name",
+        "email": "Contact Email",
+        "feedback": "Feedback",
+        "actions": "Actions"
+      }
+    }
+  },
+
+  "assignStudent": {
+    "table": {
+      "header": {
+        "select": "Select",
+        "admNo": "Ad.No",
+        "student": "Student",
+        "gender": "Gender",
+        "phone": "Phone",
+        "parent": "Parent Name",
+        "email": "Contact Email",
+        "section": "Section",
+        "grade": "Grade"
+      }
+    },
+    "cardHeader": {
+      "totalStudents": "Total Students: "
+    }
+  },
+  "templateContent": {
+    "greeting": "Dear Sir / Madam ,",
+    "message": "It was amazing to meet students at the school today. The interaction and their excitement were noteworthy.",
+    "description": "We have attached a couple of pictures and videos from today’s class, you can see their excitement and joy of learning in these pictures and videos."
+  },
+  "moduleSelectionError": "Please select atleast one Module/Level to {{action}} Batch",
+  "BatchListModalHeader": {
+    "slNumber": "Sl.No",
+    "batch": "Batch",
+    "time": "Time",
+    "status": "Status",
+    "campus": "Campus",
+    "team": "Instructor Team",
+    "primary": "Lead"
+  },
+  "slotListModalHeader": {
+    "slNumber": "Sl.No",
+    "slot": "Slot",
+    "level": "Level",
+    "primary": "Primary",
+    "actions": "Actions"
+  }
+}

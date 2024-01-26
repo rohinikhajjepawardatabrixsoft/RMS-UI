@@ -1,0 +1,25 @@
+{
+  "table": {
+    "header": {
+      "date": "Date",
+      "instructor": "Instructor",
+      "reviewedBy": "Reviewed By",
+      "overallFeedback": "Overall Feedback",
+      "status": "Status",
+      "feedback": "Feedback",
+      "actions": "Actions"
+    }
+  },
+  "questions": {
+    "schoolName": "What is your School name?",
+    "name": "What is your  Name?",
+    "class": "What is your Grade?",
+    "section": "What is your Section?"
+  },
+  "placeholder": {
+    "schoolName": "Enter your School name...",
+    "name": "Enter your Name...",
+    "class": "Enter your Grade...",
+    "section": "Enter your Section..."
+  }
+}

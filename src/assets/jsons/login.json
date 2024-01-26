@@ -1,0 +1,42 @@
+{
+  "imgTitles": {
+    "yuvipepCRM": "YuviPep CRM",
+    "studentManagement": "Students Management",
+    "batchesManagement": "Batches Management",
+    "feeStructure": "Fee Tracking"
+  },
+  "imgDescription": {
+    "yuvipepCRM": "Customer Relationship Management",
+    "studentManagement": "Manage all student related details from this module",
+    "batchesManagement": "Manage all batch related details from this module",
+    "feeStructure": "Manage all fee related details from this module"
+  },
+  "formValidation": {
+    "required": "Required field!",
+    "minCharacter": "Minimum 8 characters!",
+    "email": "Email must be valid!"
+  },
+  "welcomeText": "Welcome to YuviPep CRM Platform , Please login with your credentials to start using the platform.",
+  "forgotPasswordText": "Enter the email address associated with your YuviPep account.",
+  "header": {
+    "email": "Email",
+    "password": "Password",
+    "login": "Login",
+    "passwordAssistance": "Password assistance"
+  },
+  "invalidPassword": "Invalid email or password",
+  "notRegistered": "Please enter a registered email.",
+  "incorrectPassword": "The current password entered is incorrect.",
+  "notSamePassword": "New password and Confirm password are not matching",
+  "isOldPassword": "New password is same as that of old password",
+  "forgotPassword": "Forgot password?",
+  "noAccount": "Don't you have an account?",
+  "rememberMe": "Remember me",
+  "login": "Log In",
+  "singup": "Sign Up",
+  "proceed": "Proceed",
+  "proceedToLogin": "Proceed to Login",
+  "singin": "Sign In",
+  "returnToLogin": "Return to login?",
+  "emailSentText": "New password has been sent to your email. Please use it to login to your account."
+}

@@ -1,0 +1,96 @@
+{
+  "basicDetails": {
+    "title": "Personal Details",
+    "desc": "This contains all the basic information of the instructor and the available time slots."
+  },
+  "breadcrumb": {
+    "back": "Back to instructor list",
+    "instructor": "Instructor /",
+    "addInstructor": "Add Instructor",
+    "editInstructor": "Edit Instructor",
+    "viewInstructor": "View Instructor",
+    "numberOfStudents": "No. of Students",
+    "birthdays": "Today’s Birthday",
+    "import": "Import from XLS",
+    "add": "+ Add Student",
+    "submit": "Submit"
+  },
+  "buttons": {
+    "manage": "Manage"
+  },
+  "manageSlots": {
+    "manageSlots": "Manage Available Time Slots",
+    "instructor": "Instructor",
+    "email": "Email"
+  },
+  "form": {
+    "label": {
+      "fullName": "Full Name",
+      "noOfInstructor": "No. of Instructor",
+      "onLeaveToday": "On Leave Today ",
+      "xls": "Import from XLS",
+      "addInstructor": "+ Add Instructor",
+      "instructor": "Instructor",
+      "gender": "Gender",
+      "phNumber": "Phone Number",
+      "dob": "Date of Birth",
+      "contact": "Phone Number",
+      "address": "Address",
+      "email": "Email",
+      "id": "ID",
+      "employmentType": "Employment Type",
+      "timesheet": "Timesheet",
+      "empType": "Employee Type",
+      "wEmail": "Welcome Email",
+      "status": "Status",
+      "timeSlots": "Time Slots",
+      "actions": "Actions",
+      "doj": "Date of Joining",
+      "activities": "Activities",
+      "view": "View",
+      "send": "Send",
+      "availableOn": "Available On",
+      "day": "Available From",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "courses": "Course",
+      "level": "Course Level",
+      "addSlot": "+ Add",
+      "availability": "Availability"
+    },
+    "modal": {
+      "delete": "Are you sure you want to delete Instructor {{instructorName}}?",
+      "subHeading": "After delete you are not able to recover it!"
+    },
+    "heading": {
+      "personal": "Personal Details",
+      "parent": "Parent Details",
+      "other": "Other Details",
+      "slots": "Available Slots"
+    },
+    "subHeading": {
+      "personal": "This contains all the basic information of the Student",
+      "parent": "This contains all the basic information of the Student’s Parent",
+      "other": "Student acesss details to required tools",
+      "slots": "This contains all the basic information of the Student's Parent."
+    },
+    "validation": {
+      "error": "This field is required",
+      "min2char": "Minimum of 2 Character",
+      "max50char": "Maximum 50 characters!",
+      "required": "Required field!",
+      "email": "Email must be valid!",
+      "invalid": "invalid",
+      "max100char": "Maximum 100 characters!"
+    }
+  },
+  "instructorSchedule": {
+    "instructor": "Instructor:",
+    "instructorAvailability": "Instructor Availability",
+    "viewFreeSlots": "View Free Slots",
+    "availableInstructorSlots": "Available Instructor Slots",
+    "availableSlots": "Available Slots",
+    "studentLevel": "Student Level",
+    "availableBandwidth": "Available Bandwidth :"
+  }
+}

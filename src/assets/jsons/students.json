@@ -1,0 +1,144 @@
+{
+  "table": {
+    "header": {
+      "index": "Ad.No",
+      "student": "Student Name",
+      "gender": "Gender",
+      "number": "Contact Number",
+      "parentName": "Parent Name",
+      "email": "Contact Email",
+      "grade": "Grade",
+      "section": "Section",
+      "retailOrCampus": "Retail or campus",
+      "fee": "Fee Details",
+      "actions": "Actions"
+    }
+  },
+  "buttonLabel": {
+    "numberOfStudents": "No. of Students",
+    "birthdays": "Today’s Birthday",
+    "import": "Import from XLS",
+    "add": "+ Add Student",
+    "submit": "Submit"
+  },
+  "form": {
+    "label": {
+      "fullName": "Full Name*",
+      "grade": "Grade*",
+      "section": "Section (optional)",
+      "school": "Campus (Optional)",
+      "gender": "Gender*",
+      "dob": "Date of Birth (Optional)",
+      "contact": "Phone Number (Optional)",
+      "address": "Address",
+      "email": "Email (Optional)",
+      "country": "Country*",
+      "primaryContactName": "Primary Contact Name (Optional)",
+      "primaryContactNumber": "Primary Contact Number* ",
+      "primaryContactEmail": "Primary Contact Email* ",
+      "primaryContactGender": "Primary Contact Gender (Optional)",
+      "occupation": "Occupation (Optional)",
+      "nickName": "TinkerCad nickname (Optional)",
+      "doj": "Date of Joining*",
+      "expectedDOJ": "Preferred Class Start Date*",
+      "source": "Source (Optional)",
+      "influencer": "Influencer (Optional)",
+      "retailOrCampus": "Retail or campus (Optional)"
+    },
+    "heading": {
+      "personal": "Personal Details",
+      "parent": "Parent Details",
+      "other": "Other Details"
+    },
+    "subHeading": {
+      "personal": "This contains all the basic information of the Student",
+      "parent": "This contains all the basic information of the Student’s Parent",
+      "other": "Student acesss details to required tools"
+    },
+    "validation": {
+      "error": "This field is required"
+    }
+  },
+  "studentDetails": {
+    "section": "Section",
+    "campus": "Campus :",
+    "personalDetails": "Personal Details",
+    "gender": "Gender",
+    "phNumber": "Phone Number",
+    "country": "Country",
+    "dob": "Date of Birth",
+    "email": "Email",
+    "address": "Address",
+    "primaryContactDetails": "Primary Contact Details",
+    "name": "Name",
+    "occupation": "Occupation",
+    "feedback": "Feedbacks",
+    "viewFeedbacks": "View Feedbacks",
+    "otherDetails": "Other Details",
+    "nickName": "TinkerCad nickname",
+    "doj": "Date of Joining",
+    "pdoj": "Preferred date of joining",
+    "source": "Source",
+    "influencer": "Influencer",
+    "retailOrCampus": "Retail or Campus",
+    "comment": "Comment",
+    "batch": "Batch",
+    "fees": "Fees",
+    "attendance": "Attendance"
+  },
+  "feeTable": {
+    "header": {
+      "index": "S.No",
+      "name": "Fee Name",
+      "paidBy": "Paid By",
+      "desc": "Fee Description",
+      "course": "Course",
+      "batches": "Batches",
+      "amtPerStdnt": "Amt/Student",
+      "tamount": "Total Amount",
+      "received": "Received",
+      "balance": "Balance",
+      "date": "Date",
+      "dueDate": "Due Date",
+      "students": "More Info",
+      "actions": "Actions",
+      "amountPaid": "Amount Paid",
+      "method": "Payment Mode",
+      "refId": "Reference ID",
+      "discount": "Discount",
+      "approvedBy": "Disc.Approved By",
+      "collectedBy": "Fee Collected By",
+      "paymentHistory": "Payment History",
+      "status": "Status",
+      "amount": "Amount",
+      "total": "Total"
+    }
+  },
+  "feedback": {
+    "toasts": {
+      "add": "Feedback Added",
+      "addFailed": "Failed to add feedback",
+      "update": "Feedback Updated",
+      "updateFailed": "Failed to update feedback",
+      "send": "Feedback sent to parent",
+      "sentFailed": "Failed to sent feedback",
+      "approve": "Feedback approved",
+      "approveFailed": "Failed to approve feedback",
+      "delete": "Feedback deleted",
+      "deleteFailed": "Failed to delete feedback"
+    },
+    "confirmationMsg": {
+      "approve": "Are you sure you want to Approve {{name}}’s” Feedback?",
+      "send": "Are you sure you want to send {{name}}’s” Feedback to {{email}}?"
+    }
+  },
+  "listTable": {
+    "header": {
+      "index": "Sl.No",
+      "name": "Student Name",
+      "grade": "Grade",
+      "startDate": "Expected Start Date",
+      "actions": "Actions"
+    }
+  }
+}

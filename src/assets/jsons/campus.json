@@ -1,0 +1,85 @@
+{
+  "tableHeader": {
+    "slNumber": "S.No",
+    "name": "Name",
+    "city": "City",
+    "coName": "Coordinator",
+    "coDesignation": "Designation",
+    "address": "Address",
+    "email": "Contact Email",
+    "phNumber": "Contact Number",
+    "contact": "Contact",
+    "dateOfJoining": "Date of Joining",
+    "studentCount": "No.of Students",
+    "reminder": "Notify Holidays",
+    "status": "Status",
+    "actions": "Actions"
+  },
+  "addCampusForm": {
+    "campusName": "Campus Name",
+    "city": "City",
+    "address": "Address (Optional)",
+    "email": "Campus Coordinator Email  (Optional)",
+    "emailLabel": "Email",
+    "phoneLabel": "Phone Number",
+    "phNumber": "Campus Coordinator Ph. No. (Optional)",
+    "dateOfJoining": "Date of Joining",
+    "addCampus": "Add Campus",
+    "updateCampus": "Update Campus",
+    "name": "Coordinator Name  (Optional)",
+    "nameLabel": "Name",
+    "designationLabel": "Designation",
+    "designation": "Coordinator Designation (Optional)"
+  },
+  "uploadText": "Upload logo of the campus",
+  "imageFormats": "JPG, PNG",
+  "browse": "Browse",
+  "breadCrumbs": {
+    "campus": "Campus"
+  },
+  "cardHeader": {
+    "totalStudents": "Total students",
+    "totalCampus": "No. of Campus",
+    "batches": "Batches",
+    "feeDue": "Fee Due"
+  },
+  "summaryTabs": {
+    "info": "Info",
+    "students": "Students",
+    "batches": "Batches",
+    "fee": "Fee"
+  },
+  "information": {
+    "header": {
+      "one": "Business",
+      "two": "Sessions/Year",
+      "three": "Total students",
+      "four": "Batches",
+      "five": "Fee Due"
+    },
+    "labels": {
+      "session": "No. of Sessions / Year",
+      "recommended": "Recommended Session Duration",
+      "date": "Allotted Day and Time",
+      "startDate": "Session Start Date",
+      "address": "Address",
+      "location": "Location",
+      "labSetup": "Lab Setup?",
+      "roomAvailability": "AV room availability?",
+      "addNewTag": "Add New Tag",
+      "label": "Label",
+      "type": "Tag type",
+      "options": "Options"
+    }
+  },
+
+  "buttons": {
+    "createBatch": "+ Create Batch",
+    "importBulkStudents": "+ Import Bulk Student",
+    "addStudent": "+  Add Student",
+    "addFee": "+ Add Fee",
+    "edit": "Edit",
+    "addNewTag": "+  Add New Tag",
+    "update": "Update"
+  }
+}

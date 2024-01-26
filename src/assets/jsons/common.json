@@ -1,0 +1,53 @@
+{
+  "breadCrumbs": {
+    "students": "Students /",
+    "addStudent": "Add Student",
+    "editStudent": "Edit Student",
+    "importStudent": "Import Student"
+  },
+  "sideBarLinks": {
+    "students": "Students",
+    "dashboard": "Dashboard",
+    "batches": "Batches",
+    "timesheet": "Timesheet",
+    "configurations": "Configurations"
+  },
+  "toastMessages": {
+    "added": "Added",
+    "updated": "Updated",
+    "deleted": "Deleted",
+    "error": "Error",
+    "addedMessage": "{{addContent}} added successfully",
+    "addFailedMessage": "Adding {{addContent}} failed",
+    "updatedMessage": "{{updateContent}} updated successfully",
+    "updateFailedMessage": "Update {{updateContent}} failed",
+    "deletedMessage": "{{deleteContent}} deleted successfully",
+    "deleteFailedMessage": "Delete {{deleteContent}} failed",
+    "changedPassword": "Your password has being successfully changed."
+  },
+  "deleteModal": {
+    "deleteMessage": "Are you sure you want to delete {{deleteContent}}?",
+    "deleteSubMessage": "If you delete the {{deleteContent}} you can't recover it."
+  },
+  "inputValidationMessages": {
+    "requiredField": "Required field!",
+    "minimumCharacter": "Minimum {{characterCount}} characters!",
+    "maximumCharacter": "Maximum {{characterCount}} characters!",
+    "invalid": "Invalid",
+    "emailError": "Email must be valid!"
+  },
+  "buttonText": {
+    "add": "Add",
+    "cancel": "Cancel",
+    "submit": "Submit",
+    "close": "Close",
+    "save": "Save"
+  },
+  "DataNotAvailable": "No Data Available",
+  "calendarNavigations": {
+    "day": "Day",
+    "week": "Week",
+    "month": "Month",
+    "today": "TODAY"
+  }
+}
